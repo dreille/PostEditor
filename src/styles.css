@@ -1,0 +1,215 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* Posts Section */
+  .posts{
+    padding-top:1rem;
+ 
+    display: flex;
+    width: 70%;
+    height:auto;
+    margin: 0 auto;
+  }
+  .post{
+      display: flex;
+      margin: .3rem;
+      padding:.5rem;
+      justify-content: center;
+      width:100%;
+      border-radius:5rem;
+      border:none;
+    
+    }
+    .post button{
+      cursor:pointer;
+    background-color:white;
+    border-radius:1rem;
+
+  }
+
+  .postTitle{
+    display: flex;
+        justify-content: center;
+   
+  }
+
+/*                     */
+/* Edit Posts Section */
+.title-box{
+  display:flex;
+  padding:2rem  1rem;
+  width:35rem;
+  height:auto;
+  border:1px solid black;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem 1rem .1rem 1rem;
+  border-radius:3rem;
+  overflow: hidden;
+  resize: none;
+  font-weight: bold;
+
+}
+.title{
+  display:flex;
+  color:rgb(8, 79, 79)
+}
+  .postBody{
+    display: flex;
+    justify-content: center;  
+  }
+
+    .body-box{
+      display:flex;
+      padding:3rem  3rem;
+      width:25rem;
+      height:18rem;
+      border:1px solid black;
+      text-align:center;
+      margin: 3rem 1rem 1rem 1rem;
+      border-radius:3rem;
+      overflow: hidden;
+      resize: none;
+      font-weight: bold;
+    }
+   
+    .Body{
+      display:flex;
+      color:rgb(8, 79, 79)
+
+    }
+    .editZone{
+      display:flex;
+      justify-content: center;
+      width:60%;
+      border:1px solid blue;
+      margin: 0 auto
+  
+  }
+  .edit-button-container{
+    margin-top:1rem;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .edit-button{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color:white;
+    border: solid 1px black;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+  }
+    .edit-button:hover {
+      border-color: #fff;
+      color: #fff;
+      background-color:#1c89ff ;
+      transition: all .1s ease-in-out;
+    }
+    
+   /* End of Edit Post Section */
+
+/* Search Results Section */
+  .container{
+    display:flex;
+    border: 1px solid pink
+}
+.searchRes{
+    display:flex;
+    padding:0;
+    margin:0;
+    border: 1px solid blue;
+    width:50%
+
+}
+
+.searched{
+  width:100%
+}
+
+.result-container{
+  display:block;
+  margin: 0 auto;
+  height: 60rem;
+  overflow-y:scroll 
+}
+
+.search-container input{
+    float:center;
+    margin:1rem 1rem 0 1rem;
+    padding:1rem;
+    width : 30rem;
+}
+.suggestion-box{
+  max-height:8rem;
+  position:relative;
+  overflow-y:scroll;
+
+}
+.suggestion-box::-webkit-scrollbar {
+  display: none;
+}
+.suggestion{
+    cursor:pointer;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 2rem;
+    width :58%;
+    margin: 0 auto;
+    padding:.1rem;
+}
+.suggestion button{
+  cursor:pointer;
+    background-color:white;
+    border:none;
+    border-radius: .3rem;
+    width : 100%;
+    height:100%;
+
+}
+.suggestion button:hover{
+  background-color: rgb(30, 196, 241);
+    color:white
+
+}
+.suggestion:active{
+  
+}
+.suggestion:hover{
+    background-color: rgb(30, 196, 241);
+    color:white
+}
+
+
+
+  
+  .Search-By {
+    float: center;
+    clear: none;
+  }
+  
+  .Search-By label {
+    float: center;
+    clear: none;
+    display: inline;
+    padding: 0px 1em 0px 8px;
+  }
+  
+  .Search-By input[type=radio],
+  input.radio {
+    float:center;
+    clear: none;
+    margin: 2px 0 0 2px;
+  }
+
+  /* End of Search Results Section */

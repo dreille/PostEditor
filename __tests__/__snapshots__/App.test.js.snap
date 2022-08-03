@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`This suit is to test the Body component Snapshot of App 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+       Posts
+    </h1>
+    <div
+      class="container"
+    >
+      <div
+        class="searchRes"
+      />
+      <div
+        class="editZone"
+      >
+        <div
+          class="editContainer"
+        >
+          <div>
+            <h1>
+               Edit Post
+            </h1>
+          </div>
+          <div>
+            <form>
+              <div>
+                <div
+                  class="postTitle"
+                >
+                  <label
+                    class="title"
+                  >
+                    <h2>
+                      Title:
+                    </h2>
+                  </label>
+                  <input
+                    class="title-box"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="postBody"
+                >
+                  <label
+                    class="Body"
+                  >
+                    <h2>
+                      Body:
+                    </h2>
+                  </label>
+                  <textarea
+                    class="body-box"
+                  />
+                </div>
+              </div>
+              <div
+                class="edit-button-container"
+              >
+                <button
+                  class="edit-button"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
